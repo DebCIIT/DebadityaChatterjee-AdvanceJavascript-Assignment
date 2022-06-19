@@ -1,0 +1,98 @@
+body {
+    
+    background-image: url(download.jfif);
+    background-size: center;
+    color: black;
+    text-align: center;
+    }
+    
+    .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .heading {
+       width: 500px;
+  border: 5px solid rgb(10, 10, 10);
+  padding: 0px;
+  margin: 20px;
+  background-color: rgb(203, 200, 200);
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(232, 45, 16);
+    }
+    
+    .header {
+    display: flex;
+    align-items: center;
+    }
+    
+    .timer, .errors, .accuracy,
+    .cpm, .wpm {
+    background-color: #7046da;
+    height: 60px;
+    width: 70px;
+    margin: 8px;
+    padding: 12px;
+    border-radius: none;
+    box-shadow: black 5px 8px 5px;
+    }
+    
+    .cpm, .wpm {
+    display: none;
+    }
+    
+    .header_text {
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-weight: 600;
+    }
+    
+    .curr_time, .curr_errors,
+    .curr_accuracy, .curr_cpm,
+    .curr_wpm {
+    font-size: 2.75rem;
+    }
+    
+    .quote {
+    background-color: #da6b46;
+    font-size: 1.5rem;
+    margin: 10px;
+    padding: 25px;
+   
+    }
+    
+    .input_area {
+    background-color: #fbfbf9;
+    height: 80px;
+    width: 40%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 15px;
+    padding: 20px;
+    border: 0px;
+    box-shadow: black 5px 8px 5px;
+    }
+    
+    .restart_btn  {
+    display: none;
+    background-color: #faf4f7;
+    font-size: 1.5rem;
+    padding: 10px;
+    border: 5px solid rgb(247, 218, 1);
+    box-shadow: black 5px 8px 5px;
+    }
+
+
+    
+    .incorrect_char {
+    color: red;
+    text-decoration: underline;
+    }
+    
+    .correct_char {
+    color: darkgreen;
+    }
+    
